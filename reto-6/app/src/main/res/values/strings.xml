@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tictactoe</string>
+    <string name="scores_summary">Victorias del jugador: %1$d\nVictorias de Android: %2$d\nEmpates: %3$d</string>
+</resources>
