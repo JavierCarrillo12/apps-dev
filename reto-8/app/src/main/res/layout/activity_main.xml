@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:orientation="vertical">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:paddingBottom="8dp">
+            <ImageView android:layout_width="56dp" android:layout_height="56dp"
+                android:src="@drawable/app_logo" android:scaleType="fitCenter"
+                android:contentDescription="@string/logo_aplicacion" />
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_marginStart="12dp"
+                android:text="@string/directorio" android:textSize="22sp"
+                android:textStyle="bold" android:textColor="@color/tech_on_surface" />
+        </LinearLayout>
+        <Button android:id="@+id/agregar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/agregar_empresa" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:labelFor="@+id/buscar_nombre" android:text="@string/buscar_nombre" />
+        <EditText android:id="@id/buscar_nombre" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="48dp"
+            android:inputType="text"
+            android:imeOptions="actionDone" android:singleLine="true" android:importantForAutofill="no" />
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:labelFor="@+id/filtro_clasificacion" android:text="@string/filtrar_clasificacion" />
+        <Spinner android:id="@id/filtro_clasificacion" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:minHeight="48dp" />
+        <Button android:id="@+id/limpiar_filtros" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="@string/limpiar_filtros"
+            style="@style/Widget.Reto8SQLite.TextButton" />
+    </LinearLayout>
+    <TextView android:id="@+id/estado" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="24dp" android:gravity="center"
+        android:text="@string/lista_vacia" android:accessibilityLiveRegion="polite" />
+    <Button android:id="@+id/reintentar" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:text="@string/reintentar" android:visibility="gone" />
+    <ListView android:id="@+id/empresas" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1" android:clipToPadding="false"
+        android:paddingHorizontal="16dp" />
+</LinearLayout>

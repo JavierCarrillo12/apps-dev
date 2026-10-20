@@ -1,0 +1,38 @@
+<resources>
+    <style name="Base.Theme.Reto8SQLite" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/tech_action_text</item>
+        <item name="colorOnPrimary">@color/tech_on_primary</item>
+        <item name="colorPrimaryContainer">@color/tech_blue_dark</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+        <item name="colorPrimaryInverse">@color/tech_teal_light</item>
+        <item name="colorSecondary">@color/tech_teal</item>
+        <item name="colorOnSecondary">@color/tech_blue_dark</item>
+        <item name="colorSecondaryContainer">@color/tech_teal_light</item>
+        <item name="colorOnSecondaryContainer">@color/tech_blue_dark</item>
+        <item name="colorTertiary">@color/tech_teal</item>
+        <item name="colorOnTertiary">@color/tech_blue_dark</item>
+        <item name="colorTertiaryContainer">@color/tech_teal_light</item>
+        <item name="colorOnTertiaryContainer">@color/tech_blue_dark</item>
+        <item name="colorSurface">@color/tech_surface</item>
+        <item name="colorOnSurface">@color/tech_on_surface</item>
+        <item name="colorSurfaceVariant">@color/tech_surface</item>
+        <item name="colorOnSurfaceVariant">@color/tech_on_surface</item>
+        <item name="colorSurfaceContainer">@color/tech_surface</item>
+        <item name="colorSurfaceContainerLow">@color/tech_surface</item>
+        <item name="colorSurfaceContainerLowest">@color/tech_surface</item>
+        <item name="colorSurfaceContainerHigh">@color/tech_surface</item>
+        <item name="colorSurfaceContainerHighest">@color/tech_surface</item>
+        <item name="android:colorBackground">@color/tech_surface</item>
+        <item name="android:windowBackground">@color/tech_surface</item>
+        <item name="colorControlActivated">@color/tech_teal</item>
+        <item name="colorAccent">@color/tech_teal</item>
+    </style>
+    <style name="Widget.Reto8SQLite.SecondaryButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="backgroundTint">@color/tech_teal_light</item>
+        <item name="android:textColor">@color/tech_blue_dark</item>
+    </style>
+    <style name="Widget.Reto8SQLite.TextButton" parent="Widget.Material3.Button.TextButton">
+        <item name="android:textColor">@color/tech_action_text</item>
+    </style>
+    <style name="Theme.Reto8SQLite" parent="Base.Theme.Reto8SQLite" />
+</resources>

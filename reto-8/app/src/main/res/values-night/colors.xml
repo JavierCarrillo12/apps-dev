@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tech_surface">#121212</color>
+    <color name="tech_on_surface">@color/white</color>
+    <color name="tech_action_text">@color/tech_teal_light</color>
+    <color name="tech_on_primary">@color/tech_blue_dark</color>
+</resources>
